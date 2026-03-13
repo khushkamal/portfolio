@@ -25,3 +25,4 @@ dist-ssr
 
 # Kluster tool files
 .kluster/
+.kluster/indexer.db-shm
