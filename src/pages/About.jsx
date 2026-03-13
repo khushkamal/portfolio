@@ -54,12 +54,12 @@ const About = () => {
             <p>
               While I'm at the start of my professional career, I'm constantly learning, building personal projects, and exploring modern web technologies. I love transforming ideas into functional web experiences and am eager to contribute to real-world solutions.
             </p>
-            <Link
-              to="/services"
+            <a
+              href="#services"
               className="inline-flex items-center gap-x-2 text-accent font-semibold hover:underline transition-all duration-300"
             >
               What I do <HiArrowRight />
-            </Link>
+            </a>
           </div>
 
           {/* Stats */}

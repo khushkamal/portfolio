@@ -54,8 +54,8 @@ const Home = () => {
                 className="flex flex-col gap-x-8 gap-y-4 xl:flex-row items-center xl:items-start"
               >
                 {/* Primary CTA */}
-                <Link
-                  to="/work"
+                <a
+                  href="#work"
                   className="relative w-[185px] h-[56px] flex items-center justify-center overflow-hidden group rounded"
                 >
                   <div className="w-full h-full bg-accent absolute rounded transition-all duration-300" />
@@ -63,7 +63,7 @@ const Home = () => {
                   <span className="relative flex items-center gap-x-2 font-poppins font-semibold text-sm group-hover:text-accent transition-colors">
                     My Portfolio <HiArrowRight className="text-xl" />
                   </span>
-                </Link>
+                </a>
 
                 {/* Download CV CTA */}
                 <a

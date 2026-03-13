@@ -7,9 +7,9 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           {/* Logo */}
-          <Link to="/" className="font-sora font-extrabold text-2xl tracking-wider">
+          <a href="#home" className="font-sora font-extrabold text-2xl tracking-wider">
             Khushkamal<span className="text-accent">.</span>
-          </Link>
+          </a>
           {/* Socials */}
           <Socials />
         </div>
