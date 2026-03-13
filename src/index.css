@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #131424;
+  color: white;
+  font-family: 'Sora', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+*, *::before, *::after {
+  cursor: none !important;
+}
+
+/* Page gradient background */
+.page-bg {
+  background: linear-gradient(
+    to bottom right,
+    #1a1c32 0%,
+    #131424 40%,
+    #2a1a2e 100%
+  );
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #131424;
+}
+::-webkit-scrollbar-thumb {
+  background: #F13024;
+  border-radius: 3px;
+}
+
+/* Swiper custom */
+.swiper-pagination-bullet {
+  background: white !important;
+}
+.swiper-pagination-bullet-active {
+  background: #F13024 !important;
+}
