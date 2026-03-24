@@ -41,8 +41,8 @@ const projects = [
     id: 'personal-portfolio',
     title: 'Personal Portfolio',
     category: 'React / Tailwind',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600',
-    link: '#',
+    image:'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600',
+    link: 'https://portfolio-theta-lime-91.vercel.app',
     description:
       'A modern, animated personal portfolio website built with React and Tailwind CSS. Features smooth scroll navigation, a custom cursor, particle animations, and a fully responsive layout to showcase projects, skills, and contact information.',
     tech: ['React', 'Tailwind CSS', 'Framer Motion', 'React Router', 'Vite'],

@@ -24,7 +24,7 @@ const projects = [
     tags: ['React', 'Tailwind', 'Framer Motion'],
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600',
     github: '#',
-    live: '#',
+    live: 'https://portfolio-theta-lime-91.vercel.app',
   },
   {
     title: 'Task Manager Dashboard',
