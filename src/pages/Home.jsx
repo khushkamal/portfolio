@@ -67,10 +67,9 @@ const Home = () => {
 
                 {/* Download CV CTA */}
                 <a
-                  href="/resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm font-poppins font-semibold uppercase tracking-[2px] border-b border-white/20 hover:border-accent pb-1 transition-all duration-300"
+                  href="/Resume.pdf"
+                  download="Khushkamal_Singh_CV.pdf"
+                  className="w-[185px] h-[56px] flex items-center justify-center border border-white/20 hover:border-accent rounded font-poppins font-semibold text-sm transition-all duration-300 group"
                 >
                   Download CV
                 </a>

@@ -54,12 +54,21 @@ const About = () => {
             <p>
               While I'm at the start of my professional career, I'm constantly learning, building personal projects, and exploring modern web technologies. I love transforming ideas into functional web experiences and am eager to contribute to real-world solutions.
             </p>
-            <a
-              href="#services"
-              className="inline-flex items-center gap-x-2 text-accent font-semibold hover:underline transition-all duration-300"
-            >
-              What I do <HiArrowRight />
-            </a>
+            <div className="flex gap-x-6 pb-2">
+              <a
+                href="#services"
+                className="inline-flex items-center gap-x-2 text-accent font-semibold hover:underline transition-all duration-300"
+              >
+                What I do <HiArrowRight />
+              </a>
+              <a
+                href="/Resume.pdf"
+                download="Khushkamal_Singh_CV.pdf"
+                className="text-sm font-poppins font-semibold uppercase tracking-[2px] border-b border-white/20 hover:border-accent pb-1 transition-all duration-300"
+              >
+                Download CV
+              </a>
+            </div>
           </div>
 
           {/* Stats */}
