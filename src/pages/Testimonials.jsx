@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { HiOutlineStar } from 'react-icons/hi2';
+import { HiOutlineStar, HiUser } from 'react-icons/hi2';
 
 const testimonials = [
   {
@@ -7,24 +7,24 @@ const testimonials = [
     role: 'Local Business Owner',
     message:
       'Khushkamal ne hamari shop ke liye ek bahut sundar aur fast website banayi. Kaam bahut professional tha aur time par deliver kiya.',
-    rating: 5,
-    image: 'https://randomuser.me/api/portraits/men/44.jpg',
+    rating: 4,
+    image: '#',
   },
   {
     name: 'Simran Kaur',
     role: 'Freelance Artist',
     message:
       'I was looking for a clean portfolio and Khushkamal delivered exactly what I needed. Great eye for design and very helpful!',
-    rating: 5,
-    image: 'https://randomuser.me/api/portraits/women/32.jpg',
+    rating: 4.5,
+    image: '#',
   },
   {
-    name: 'Rahul Mehta',
+    name: 'Basant Singh',
     role: 'Project Manager (Small Team)',
     message:
       'Excellent technical skills with the MERN stack. He integrated our backend perfectly and the UI is incredibly smooth.',
     rating: 5,
-    image: 'https://randomuser.me/api/portraits/men/68.jpg',
+    image: '#',
   },
 ];
 
@@ -66,11 +66,9 @@ const Testimonials = () => {
                 "{t.message}"
               </p>
               <div className="flex items-center gap-x-4">
-                <img
-                  src={t.image}
-                  alt={t.name}
-                  className="w-12 h-12 rounded-full object-cover border-2 border-accent"
-                />
+                <div className="w-12 h-12 rounded-full border-2 border-accent flex items-center justify-center bg-accent/10">
+                  <HiUser className="text-xl text-accent" />
+                </div>
                 <div>
                   <div className="font-sora font-bold text-sm">{t.name}</div>
                   <div className="font-poppins text-xs text-white/40">{t.role}</div>

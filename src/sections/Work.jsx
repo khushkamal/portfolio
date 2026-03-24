@@ -3,18 +3,34 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Speed-Dash Portfolio',
-    description: 'A high-performance portfolio with Framer Motion and tsparticles.',
-    tags: ['React', 'Vite', 'Tailwind'],
-    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800', // Techy setup
+    title: 'NoteGeo',
+    description: 'A full-stack MERN app for location-tagged notes on an interactive map.',
+    tags: ['React', 'Node.js', 'MongoDB'],
+    image: 'https://images.unsplash.com/photo-1584931423298-c576fda54bd2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    github: '#',
+    live: 'https://note-geo.vercel.app/',
+  },
+  {
+    title: 'AI Shopping Assistant',
+    description: 'AI-powered shopping assistant for product comparison and smart recommendations.',
+    tags: ['React', 'Node.js', 'AI'],
+    image: 'https://media.istockphoto.com/id/2201598683/photo/ai-e-commerce-concept-artificial-intelligence-service-tools-for-ecommerce-digital-marketing.jpg?s=1024x1024&w=is&k=20&c=PfZlOJEjQU2TGukewRglpvzWNQ1LATnFT7a7IIGaRwc=',
+    github: '#',
+    live: 'https://ai-shopping-nu.vercel.app',
+  },
+  {
+    title: 'Personal Portfolio',
+    description: 'A modern, animated portfolio with custom cursor and smooth scroll navigation.',
+    tags: ['React', 'Tailwind', 'Framer Motion'],
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600',
     github: '#',
     live: '#',
   },
   {
-    title: 'Neon Commerce',
-    description: 'E-commerce UI kit with carbon fiber aesthetic.',
-    tags: ['Tailwind', 'Motion', 'React'],
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800', // Code on screen
+    title: 'Task Manager Dashboard',
+    description: 'Feature-rich task management dashboard with analytics and progress tracking.',
+    tags: ['Node.js', 'Express', 'MongoDB'],
+    image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=600',
     github: '#',
     live: '#',
   },
